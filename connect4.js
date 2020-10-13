@@ -41,6 +41,7 @@ function makeHtmlBoard() {
   for (var x = 0; x < WIDTH; x++) {
     const headCell = document.createElement("td");
     headCell.setAttribute("id", x);
+    headCell.innerHTML = `${x + 1}`;
     top.append(headCell);
   }
   htmlBoard.append(top);

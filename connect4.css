@@ -30,8 +30,16 @@
 /* column-top is table row of clickable areas for each column */
 #column-top td {
   border: dashed 1px lightgray;
+  /* Extras*/
+  color: lightgray;
+  text-align: center;
+  line-height: 3em;
+  /* font-size: 72; */
 }
 
 #column-top td:hover {
   background-color: gold;
 }
+
+/* EXTRA */
+
